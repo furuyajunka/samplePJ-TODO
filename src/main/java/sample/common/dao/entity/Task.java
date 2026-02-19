@@ -13,31 +13,76 @@ public class Task {
 	private LocalDate endDate;
 	private LocalDateTime createdAt;
 	private LocalDateTime updatedAt;
-	
-	public Long getId() {return id;}
-	public void setId(Long id) {this.id = id;}
-	
-	public String getUsername() { return username; }
-    public void setUsername(String username) { this.username = username; }
 
-    public String getTitle() { return title; }
-    public void setTitle(String title) { this.title = title; }
+	public Long getId() {
+		return id;
+	}
 
-    public String getContent() { return content; }
-    public void setContent(String content) { this.content = content; }
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
+	public String getUsername() {
+		return username;
+	}
 
-    public LocalDate getStartDate() { return startDate; }
-    public void setStartDate(LocalDate startDate) { this.startDate = startDate; }
+	public void setUsername(String username) {
+		this.username = username;
+	}
 
-    public LocalDate getEndDate() { return endDate; }
-    public void setEndDate(LocalDate endDate) { this.endDate = endDate; }
+	public String getTitle() {
+		return title;
+	}
 
-    public LocalDateTime getCreatedAt() { return createdAt; }
-    public void setCreatedAt(LocalDateTime createdAt) { this.createdAt = createdAt; }
+	public void setTitle(String title) {
+		this.title = title;
+	}
 
-    public LocalDateTime getUpdatedAt() { return updatedAt; }
-    public void setUpdatedAt(LocalDateTime updatedAt) { this.updatedAt = updatedAt; }
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public LocalDate getStartDate() {
+		return startDate;
+	}
+
+	public void setStartDate(LocalDate startDate) {
+		this.startDate = startDate;
+	}
+
+	public LocalDate getEndDate() {
+		return endDate;
+	}
+
+	public void setEndDate(LocalDate endDate) {
+		this.endDate = endDate;
+	}
+
+	public LocalDateTime getCreatedAt() {
+		return createdAt;
+	}
+
+	public void setCreatedAt(LocalDateTime createdAt) {
+		this.createdAt = createdAt;
+	}
+
+	public LocalDateTime getUpdatedAt() {
+		return updatedAt;
+	}
+
+	public void setUpdatedAt(LocalDateTime updatedAt) {
+		this.updatedAt = updatedAt;
+	}
 }

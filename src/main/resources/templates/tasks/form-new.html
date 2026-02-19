@@ -7,11 +7,11 @@
 </head>
 <body class="bg-white">
   <div class="container py-5" style="max-width: 900px;">
-    <h1 class="text-center fw-bold mb-4">新規作成</h1>
+   <h1 class="text-center fw-bold mb-4">新規作成</h1>
 
     <div class="card shadow-sm">
-      <div class="card-body p-4">
-        <form th:action="@{/tasks}" th:object="${task}" method="post">
+     <div class="card-body p-4">
+      <form th:action="@{/tasks}" th:object="${task}" method="post">
           <div class="mb-3">
             <label class="form-label">タイトル</label>
             <input type="text" class="form-control" th:field="*{title}" >
@@ -48,6 +48,4 @@
 
   </div>
 </body>
-</html>
-
-				 
+</html>			 

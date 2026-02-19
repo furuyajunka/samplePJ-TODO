@@ -5,20 +5,21 @@
 
 <mapper namespace="sample.common.dao.mapper.LoginMapper">
 
-<select id="selectByUsername" parameterType="String" resultType="sample.common.dao.entity.Login" >
-	SELECT
-	id,
-	username,
-	password,
-	created_at,
-	updated_at
-	FROM login
-	WHERE username = #{username}
-</select>
+	<select id="selectByUsername" parameterType="String"
+		resultType="sample.common.dao.entity.Login">
+		SELECT
+		id,
+		username,
+		password,
+		created_at,
+		updated_at
+		FROM login
+		WHERE username = #{username}
+	</select>
 
-<insert id="insert">
-	INSERT INTO login(username,password)
-	VALUES(#{username},#{password})
-</insert>
+	<insert id="insert">
+		INSERT INTO login(username,password)
+		VALUES(#{username},#{password})
+	</insert>
 
 </mapper>

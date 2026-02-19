@@ -10,10 +10,10 @@
     <h1 class="text-center fw-bold mb-4">タスク編集</h1>
 
     <div class="card shadow-sm">
-   　　<div class="card-body p-4">
-        <form th:action="@{/tasks/update/{id}(id=${task.id})}"
-              th:object="${task}"
-              method="post">
+     <div class="card-body p-4">
+      <form th:action="@{/tasks/update/{id}(id=${task.id})}"
+            th:object="${task}"
+               method="post">
 
           <div class="mb-3">
             <label class="form-label">タイトル</label>

@@ -7,7 +7,7 @@ import sample.common.dao.entity.Login;
 
 @Mapper
 public interface LoginMapper {
-    Login selectByUsername(@Param("username") String username);
-    
-    int insert(@Param("username")String username,@Param("password")String password);
+	Login selectByUsername(@Param("username") String username);
+
+	int insert(@Param("username") String username, @Param("password") String password);
 }
